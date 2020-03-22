@@ -9,7 +9,8 @@ Install and update using pip:
 
 `pip install aiohandler`  
 
-A simple example.
+A simple example.  
+Enter the parameters required for sending the webhook in the body.  
 ```python
 import asyncio
 import logging
@@ -17,7 +18,7 @@ import aiohandler
 
 WEBHOOK_URL = "Your webhook url"
 logger = logging.getLogger()
-handler = aiohandler.AioHTTPHandler(WEBHOOK_URL, method="POST", body="content")#bodyはwebhookで送信するパラメータ
+handler = aiohandler.AioHTTPHandler(WEBHOOK_URL, method="POST", body="content")
 logger.addHandler(handler)
 
 loop = asyncio.get_event_loop()
