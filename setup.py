@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(  
     name="aiohandler",  
-    version="0.0.3",  
+    version="0.1.0",  
     author="grarich",  
     author_email="grarich123+github@gmail.com",  
     description="httpheader for logging on async",  

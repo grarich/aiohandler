@@ -1,13 +1,15 @@
 # aiohandler  
-aiohandler = aiohttp handler
+aiohandler = aiohttp http handler
 
-loggingモジュールをノンブロッキングでwebhookに送信する拡張ライブラリ  
+aiohandler is a logging extension module.  
+By using this module, logs can be sent by webhook.  
 
-# 使い方  
+# installing  
+Install and update using pip:
 
-`pip install -i https://test.pypi.org/simple/ aiohandler`  
+`pip install aiohandler`  
 
-
+A simple example.
 ```python
 import asyncio
 import logging
@@ -34,4 +36,4 @@ if __name__ == "__main__":
     loop.create_task(main())
     loop.run_forever()
 ```
-ご協力してくださった皆様ありがとうございます！
+# Thank you to everyone who Helped me (#^^#)
