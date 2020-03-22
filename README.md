@@ -34,3 +34,4 @@ if __name__ == "__main__":
     loop.create_task(main())
     loop.run_forever()
 ```
+ご協力してくださった皆様ありがとうございます！
