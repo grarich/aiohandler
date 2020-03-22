@@ -7,9 +7,6 @@ loggingモジュールをノンブロッキングでwebhookに送信する拡張
 
 `pip install -i https://test.pypi.org/simple/ aiohandler`  
 
-## extensionとして使用する場合
-
-load_extensionで読み込んでください
 
 ```python
 import asyncio
